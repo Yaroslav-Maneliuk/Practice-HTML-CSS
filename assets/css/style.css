@@ -1,10 +1,7 @@
 :root{
-  -accent-color: #65C466;
-  --bg-color: FFFFFF;
+  --accent-color: #65C466;
+  --bg-color: #FFFFFF;
   --dark-color: #414141;
-  font-size: ;
-  font-weight: ;
-  font-family: ;
 }
 
 .container {
