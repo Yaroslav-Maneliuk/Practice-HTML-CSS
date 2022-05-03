@@ -1,12 +1,27 @@
 :root{
-
+  -accent-color: #65C466;
+  --bg-color: FFFFFF;
+  --dark-color: #414141;
   font-size: ;
   font-weight: ;
   font-family: ;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .overflow{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; 
+}
+.uppercase{
+  text-transform: uppercase;
 }
