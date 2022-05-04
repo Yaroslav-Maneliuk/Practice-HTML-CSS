@@ -1,0 +1,14 @@
+.main-list{
+  display: flex;
+  justify-content: space-around;
+}
+.main-list-item{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.5px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #414141;
+}

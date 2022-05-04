@@ -9,7 +9,7 @@
 .logo{
   display: block;
   transform: translateY(35px);
-  margin-left: 85.5px;
+  /* margin-left: 85.5px; */
   color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
@@ -18,14 +18,13 @@
   font-family: 'Mulish';
 }
 
-
 .nav-list{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: inline;
+  text-align: center;
 }
 .nav-list-item{
-
+  display: inline-block;
+  margin: 0 20px;
 }
 .consultation{
   display: flex;
