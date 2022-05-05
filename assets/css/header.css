@@ -1,20 +1,20 @@
 .navigation{
   background-color: var(--accent-color);
-  width: 1663px;
-  height: 143px;
+  width: 85%;
   margin: auto;
   border-radius: 7px;
 }
 
+.wrapper{
+}
+
 .logo{
   display: block;
-  transform: translateY(35px);
-  /* margin-left: 85.5px; */
   color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  line-height: 57px;
+  /* line-height: 57px; */
   font-family: 'Mulish';
 }
 
