@@ -1,9 +1,37 @@
-.benefit-header,
-.benefit-subtitle{
+.title,
+.subtitle,
+.subtitle-reviews,
+.subtitle-benefit,
+.subtitle-services{
   display: block;
   margin: auto;
   text-align: center;
 }
-.benefit-subtitle{
-  width: 325.5px;
+
+.title{
+  margin-top: 50px;
+}
+
+.subtitle-services{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 1375px;
+  font-size: 25.5px;
+  line-height: 32px;
+}
+
+.subtitle-benefit{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 330px;
+  font-size: 25.5px;
+  line-height: 32px;
+}
+
+.subtitle-reviews{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 885px;
+  font-size: 25.5px;
+  line-height: 32px;
 }
