@@ -22,3 +22,27 @@
 .uppercase{
   text-transform: uppercase;
 }
+.extra-light{
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 200;
+  color: #696969;
+}
+.medium{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  color: #9D9D9D;
+}
+.regular{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  color: var(--dark-color);
+}
+.trajan-pro{
+  font-family: 'Trajan Pro 3';
+  font-style: normal;
+  font-weight: 400;
+  color: var(--accent-color);
+}

@@ -1,0 +1,29 @@
+.benefit-wrapper{
+  width: 100%;
+}
+.benefit-header{}
+.information-block{}
+
+.benefit-package{
+  width: 83.86px;
+  height: 83.86px;
+}
+
+.benefit-description{
+  font-size: 23px;
+  line-height: 29px;
+}
+.benefit-comment{
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h2{
+  font-size: 50px;
+  line-height: 60px;
+}
+
+h3{
+  font-size: 25.5px;
+  line-height: 32px;
+}
