@@ -1,5 +1,5 @@
 .benefit-wrapper{
-  width: 100%;
+
 }
 .benefit-header,
 .benefit-subtitle{
@@ -11,6 +11,10 @@
   width: 325.5px;
 }
 
+.information-block-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
 .information-block{
   width: 384px;
   height: 324px;
@@ -18,8 +22,10 @@
   border: 1.5px solid #C2C1C2;
   border-radius: 14.5px;
 }
+
 .information-block:hover{
   border: none;
+  transition: all 200ms;
   box-shadow: 0px 0px 28.5px #DEDEDE;
 }
 
