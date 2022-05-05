@@ -1,0 +1,9 @@
+.benefit-header,
+.benefit-subtitle{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.benefit-subtitle{
+  width: 325.5px;
+}

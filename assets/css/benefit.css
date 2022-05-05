@@ -1,20 +1,12 @@
 .benefit-wrapper{
 
 }
-.benefit-header,
-.benefit-subtitle{
-  display: block;
-  margin: auto;
-  text-align: center;
-}
-.benefit-subtitle{
-  width: 325.5px;
-}
 
 .information-block-wrapper{
   display: flex;
   justify-content: space-around;
 }
+
 .information-block{
   width: 384px;
   height: 324px;
@@ -37,6 +29,7 @@ width: 120px;
   font-size: 23px;
   line-height: 29px;
 }
+
 .benefit-comment{
   padding: 10px;
   font-size: 20px;
