@@ -1,0 +1,57 @@
+.header-wrapper{}
+.header{
+}
+.header-block{
+  display: flex;
+  background-color: var(--accent-color);
+}
+.header-logo{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 45.5px;
+  line-height: 57px;
+  color: var(--light-color);
+}
+.header-phone{
+
+}
+.header-phone-number{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 39px;
+  color: var(--light-color);
+}
+.header-phone-info{
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--light-color);
+}
+.header-button{}
+.header-profile{}
+
+
+
+
+
+
+
+
+
+.nav-menu{}
+.nav-menu-list{}
+.nav-menu-item{
+  display: inline-block;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 25.5px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--dark-color);
+}
+.nav-menu-link{}
+
