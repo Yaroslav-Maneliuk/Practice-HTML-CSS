@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'trajan-pro-3';
+  src: url(./../fonts/TrajanPro-3/TrajanPro-Regular.woff) format("woff");
+  font-weight: 400;
+  color: var(--accent-color);
+}
+
+
+/* .trajan-pro{
+  font-family: 'Trajan Pro 3';
+  font-style: normal;
+  font-weight: 400;
+  color: var(--accent-color);
+} */
