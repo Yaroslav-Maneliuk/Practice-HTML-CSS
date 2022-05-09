@@ -7,10 +7,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px 50px 20px 85px;
   background-color: var(--accent-color);
   border-radius: 7px;
 }
 .header-logo{
+  margin-right: 350px;
   font-family: 'Mulish';
   font-weight: 700;
   font-size: 45.5px;
@@ -96,7 +98,8 @@
 
 
 .nav-menu{
-
+  margin: auto;
+  width: 90%;
 }
 .nav-menu-list{
   display: flex;
