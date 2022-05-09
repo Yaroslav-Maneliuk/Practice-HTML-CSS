@@ -1,9 +1,14 @@
 .header-wrapper{}
 .header{
+  margin: auto;
+  width: 90%;
 }
 .header-block{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: var(--accent-color);
+  border-radius: 7px;
 }
 .header-logo{
   font-family: 'Mulish';
@@ -15,6 +20,7 @@
 .header-phone{
 
 }
+
 .header-phone-number{
   font-family: 'Mulish';
   font-style: normal;
@@ -23,6 +29,17 @@
   line-height: 39px;
   color: var(--light-color);
 }
+
+.header-phone-number::before{
+  display: block;
+  content: "";
+  background: url(./../images/phone_header.png) no-repeat;
+  background-size: 100% auto;
+  width: 21.5px;
+  height: 21.5px;
+  margin: 0 auto;
+}
+
 .header-phone-info{
   font-family: 'Mulish';
   font-style: italic;
@@ -31,8 +48,44 @@
   line-height: 25px;
   color: var(--light-color);
 }
-.header-button{}
-.header-profile{}
+.header-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  height: 67px;
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--light-color);
+  border: 2.8px solid var(--light-color);
+  border-radius: 7px;
+}
+
+.header-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--light-color);
+}
+
+.header-profile::before{
+  display: block;
+  content: "";
+  background: url(./../images/icon_header.png) no-repeat;
+  background-size: 100% auto;
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+}
 
 
 
@@ -42,10 +95,17 @@
 
 
 
-.nav-menu{}
-.nav-menu-list{}
+.nav-menu{
+
+}
+.nav-menu-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .nav-menu-item{
-  display: inline-block;
+  /* display: inline-block; */
+
   font-family: 'Mulish';
   font-weight: 400;
   font-size: 25.5px;
