@@ -20,7 +20,7 @@
   color: var(--light-color);
 }
 .header-phone{
-
+  text-align: center;
 }
 
 .header-phone-number{
@@ -64,6 +64,12 @@
   color: var(--light-color);
   border: 2.8px solid var(--light-color);
   border-radius: 7px;
+}
+
+.header-button:hover{
+  color: var(--accent-color);
+  background-color: var(--light-color);
+  transition: all 0.3s;
 }
 
 .header-profile{
