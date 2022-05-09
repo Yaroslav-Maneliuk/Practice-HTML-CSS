@@ -12,7 +12,7 @@
   border-radius: 7px;
 }
 .header-logo{
-  margin-right: 350px;
+  margin-right: 250px;
   font-family: 'Mulish';
   font-weight: 700;
   font-size: 45.5px;
@@ -24,6 +24,7 @@
 }
 
 .header-phone-number{
+  padding-bottom: 5px;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
@@ -31,15 +32,8 @@
   line-height: 39px;
   color: var(--light-color);
 }
-
-.header-phone-number::before{
-  display: block;
-  content: "";
-  background: url(./../images/phone_header.png) no-repeat;
-  background-size: 100% auto;
-  width: 21.5px;
-  height: 21.5px;
-  margin: 0 auto;
+.header-phone-img{
+  transform: translateY(-6px);
 }
 
 .header-phone-info{
@@ -95,6 +89,9 @@
   margin: 0 auto;
 }
 
+.header-profile-link{
+  padding: 5px;
+}
 
 
 
