@@ -8,6 +8,7 @@
 }
 
 .scroll-bar-cell-left {
+  position: relative;
   background: rgb(255, 255, 255);
   background-image: linear-gradient(
     0deg,
@@ -24,33 +25,31 @@
 }
 
 .scroll-bar-cell-centr {
+  position: relative;
 }
 
 .scroll-bar-cell-right {
+  position: relative;
 }
 
 .scroll-bar-image-first {
-  position: relative;
   width: 393px;
   height: 585px;
   object-fit: cover;
   border-radius: 13px;
   filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
-}
-.scroll-bar-image-first-accent-linnear {
-
-}
-.scroll-bar-image-last {
-  width: 393px;
-  height: 585px;
-  object-fit: cover;
-  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
-  border-radius: 13px;
 }
 
 .scroll-bar-image-center {
   width: 437px;
   height: 657px;
+  object-fit: cover;
+  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+  border-radius: 13px;
+}
+.scroll-bar-image-last {
+  width: 393px;
+  height: 585px;
   object-fit: cover;
   filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
   border-radius: 13px;
@@ -65,21 +64,23 @@ h3 {
   color: var(--light-color);
 }
 
-h3.right-header {
-  position: absolute;
-  top: 700px;
-  left: 1310px;
-}
 h3.left-header {
   position: absolute;
-  top: 700px;
   width: 300px;
-  left: 255px;
+  top: 280px;
+  left: 15px;
 }
+
 h3.center-header {
   position: absolute;
-  top: 700px;
-  left: 750px;
+  top: 320px;
+  left: 15px;
+}
+
+h3.right-header {
+  position: absolute;
+  top: 280px;
+  left: 15px;
 }
 
 .scroll-bar-p {
@@ -94,43 +95,45 @@ h3.center-header {
 .scroll-bar-p-left {
   width: 390px;
   position: absolute;
-  top: 800px;
-  left: 255px;
+  top: 390px;
+  left: 15px;
 }
+
 .scroll-bar-p-center {
   width: 408px;
   position: absolute;
-  top: 800px;
-  left: 750px;
+  top: 400px;
+  left: 15px;
 }
+
 .scroll-bar-p-right {
   width: 365px;
   position: absolute;
-  top: 800px;
-  left: 1310px;
+  top: 350px;
+  left: 15px;
 }
 
 .more {
+  position: absolute;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
   color: var(--light-color);
-  position: absolute;
-  top: 965px;
 }
-.more-left {
-  left: 350px;
+
+.more-left,
+.more-right{
+  top: 540px;
+  left: 140px;
 }
+
 .more-center {
-  top: 995px;
-  left: 890px;
+  top: 610px;
+  left: 140px;
 }
-.more-right {
-  left: 1410px;
-}
+
 .arrow {
   width: 57px;
   height: 57px;
