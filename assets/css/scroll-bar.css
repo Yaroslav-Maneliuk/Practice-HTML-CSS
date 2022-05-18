@@ -3,6 +3,8 @@
 
 .scroll-bar {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .scroll-bar-cell-left {
@@ -14,7 +16,23 @@
 .scroll-bar-cell-right {
 }
 
-.scroll-bar-image-first-last {
+.scroll-bar-image-first {
+  position: relative;
+  width: 393px;
+  height: 585px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+.scroll-bar-image-first-accent-linnear{
+  background: linear-gradient(
+      180deg,
+      #414141 -15.76%,
+      rgba(65, 65, 65, 0) 115.22%
+    ),
+    linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%);
+  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+}
+.scroll-bar-image-last {
   width: 393px;
   height: 585px;
   object-fit: cover;
@@ -24,8 +42,8 @@
       rgba(65, 65, 65, 0) 115.22%
     ),
     linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%),
-    url(architect-3979490_1920.jpg); */
-  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+    url(architect-3979490_1920.jpg); 
+  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25)); */
   border-radius: 13px;
 }
 
@@ -38,14 +56,87 @@
       #414141 -49.24%,
       rgba(65, 65, 65, 0) 120.35%
     ),
-    linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
-    url();
+    linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%), url();
   filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
   border-radius: 13px;
 }
 
 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36.5px;
+  line-height: 43px;
+  color: var(--light-color);
+}
+
+h3.right-header {
+  position: absolute;
+  top: 700px;
+  left: 1310px;
+}
+h3.left-header {
+  position: absolute;
+  top: 700px;
+  width: 300px;
+  left: 255px;
+}
+h3.center-header {
+  position: absolute;
+  top: 700px;
+  left: 750px;
 }
 
 .scroll-bar-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  color: var(--light-color);
+}
+
+.scroll-bar-p-left {
+  width: 390px;
+  position: absolute;
+  top: 800px;
+  left: 255px;
+}
+.scroll-bar-p-center {
+  width: 408px;
+  position: absolute;
+  top: 800px;
+  left: 750px;
+}
+.scroll-bar-p-right {
+  width: 365px;
+  position: absolute;
+  top: 800px;
+  left: 1310px;
+}
+
+.more {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--light-color);
+  position: absolute;
+  top: 965px;
+}
+.more-left {
+  left: 350px;
+}
+.more-center {
+  top: 995px;
+  left: 890px;
+}
+.more-right {
+  left: 1410px;
+}
+.arrow {
+  width: 57px;
+  height: 57px;
 }
