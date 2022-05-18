@@ -1,0 +1,16 @@
+.request-wrapper {
+  width: 90%; 
+  height: 285px;
+  margin: 0 auto;
+}
+.request-background{
+
+  width: 100%; 
+  height: 285px;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+.request{
+
+}
