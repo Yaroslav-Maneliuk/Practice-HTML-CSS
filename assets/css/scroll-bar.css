@@ -8,6 +8,19 @@
 }
 
 .scroll-bar-cell-left {
+  background: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(65, 65, 65, 1) 100%
+  );
+  background: rgb(37, 137, 249);
+  background: linear-gradient(
+    180deg,
+    rgba(37, 137, 249, 1) 0%,
+    rgba(101, 196, 102, 1) 100%
+  );
+  border-radius: 13px;
 }
 
 .scroll-bar-cell-centr {
@@ -22,28 +35,16 @@
   height: 585px;
   object-fit: cover;
   border-radius: 13px;
-}
-.scroll-bar-image-first-accent-linnear{
-  background: linear-gradient(
-      180deg,
-      #414141 -15.76%,
-      rgba(65, 65, 65, 0) 115.22%
-    ),
-    linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%);
   filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+}
+.scroll-bar-image-first-accent-linnear {
+
 }
 .scroll-bar-image-last {
   width: 393px;
   height: 585px;
   object-fit: cover;
-  /* background: linear-gradient(
-      180deg,
-      #414141 -15.76%,
-      rgba(65, 65, 65, 0) 115.22%
-    ),
-    linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%),
-    url(architect-3979490_1920.jpg); 
-  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25)); */
+  filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
   border-radius: 13px;
 }
 
@@ -51,12 +52,6 @@
   width: 437px;
   height: 657px;
   object-fit: cover;
-  background: linear-gradient(
-      180deg,
-      #414141 -49.24%,
-      rgba(65, 65, 65, 0) 120.35%
-    ),
-    linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%), url();
   filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
   border-radius: 13px;
 }
