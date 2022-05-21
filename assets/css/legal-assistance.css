@@ -1,0 +1,22 @@
+.legal-assistance-wrapper {
+}
+.legal-assistance {
+}
+.legal-assistance-step {
+  width: 660px;
+}
+.legal-assistance-header {
+  font-family: "TrajanPro3Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  color: var(--accent-color);
+}
+.legal-assistance-img {
+  width: 515px;
+  height: 750px;
+  object-fit: cover;
+}
+.legal-assistance-form {
+}
