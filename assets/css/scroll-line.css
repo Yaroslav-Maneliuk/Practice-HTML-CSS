@@ -1,0 +1,31 @@
+.scroll-line-wrapper {
+  margin-top: 95px;
+  margin-bottom: 185px;
+}
+.scroll-line-down-wrapper {
+  margin-top: 95px;
+  margin-bottom: 55px;
+}
+.scroll-line {
+  display: flex;
+  justify-content: center;
+}
+.scroll-line-block-1,
+.scroll-line-block-2,
+.scroll-line-block-3,
+.scroll-line-block-4,
+.scroll-line-block-5,
+.scroll-line-block-6 {
+  width: 85px;
+  height: 10px;
+  margin-left: 20px;
+  background: #e8e2d5;
+  border-radius: 5px;
+}
+
+.scroll-line-block:hover {
+  width: 85px;
+  height: 10px;
+  background: var(--accent-color);
+  border-radius: 5px;
+}
