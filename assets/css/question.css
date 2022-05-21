@@ -1,5 +1,7 @@
 .question-wrapper {
   display: flex;
+  margin-top: 150px;
+  margin-bottom: 70px;
   /* width: 90%; */
   /* margin: auto; */
 }
@@ -23,13 +25,55 @@
   line-height: 60px;
   color: var(--accent-color);
 }
+.qustion-p-wrapper{
+  display: flex;
+}
 .question-p {
+  width: 810px;
+  height: 80px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
   line-height: 29px;
   color: var(--dark-color);
+}
+.question-shortcut-window-wrapper {
+  position: relative;
+  /* width: 110px;
+   height: 110px; */
+}
+.question-shortcut-window-bg {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: var(--light-color);
+  box-shadow: 0px 6px 43px rgba(0, 0, 0, 0.25);
+}
+.question-shortcut-window {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+.question-shortcut-window-icon {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+.question-shortcut-window-online-user {
+  position: absolute;
+  top: 65px;
+  left: 20px;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--light-color);
 }
 .quastion-agreement {
   font-family: "Mulish";
