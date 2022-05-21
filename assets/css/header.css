@@ -1,9 +1,10 @@
-.header-wrapper{}
-.header{
+.header-wrapper {
   margin: auto;
   width: 90%;
 }
-.header-block{
+.header {
+}
+.header-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,46 +12,46 @@
   background-color: var(--accent-color);
   border-radius: 7px;
 }
-.header-logo{
+.header-logo {
   margin-right: 250px;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-weight: 700;
   font-size: 45.5px;
   line-height: 57px;
   color: var(--light-color);
 }
-.header-phone{
+.header-phone {
   text-align: center;
 }
 
-.header-phone-number{
+.header-phone-number {
   padding-bottom: 5px;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 31px;
   line-height: 39px;
   color: var(--light-color);
 }
-.header-phone-img{
+.header-phone-img {
   transform: translateY(-6px);
 }
 
-.header-phone-info{
-  font-family: 'Mulish';
+.header-phone-info {
+  font-family: "Mulish";
   font-style: italic;
   font-weight: 200;
   font-size: 20px;
   line-height: 25px;
   color: var(--light-color);
 }
-.header-button{
+.header-button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 285px;
   height: 67px;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: italic;
   font-weight: 200;
   font-size: 20px;
@@ -60,18 +61,18 @@
   border-radius: 7px;
 }
 
-.header-button:hover{
+.header-button:hover {
   color: var(--accent-color);
   background-color: var(--light-color);
   transition: all 0.3s;
 }
 
-.header-profile{
+.header-profile {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: italic;
   font-weight: 200;
   font-size: 20px;
@@ -79,7 +80,7 @@
   color: var(--light-color);
 }
 
-.header-profile::before{
+.header-profile::before {
   display: block;
   content: "";
   background: url(./../images/icon_header.png) no-repeat;
@@ -89,62 +90,52 @@
   margin: 0 auto;
 }
 
-.header-profile-link{
+.header-profile-link {
   padding: 5px;
 }
 
-
-
-
-
-
-
-
-.nav-menu{
+.nav-menu {
   margin: auto;
-  padding: 0px 50px 0px 85px;
+  padding: 0px 0px 0px 50px;
 }
 
-.search{
+.search {
   margin-left: 0px;
 }
 
-.nav-menu-list{
-
+.nav-menu-list {
 }
 
-.nav-menu-item{
+.nav-menu-item {
   display: inline-block;
-  padding: 0 40px 0 40px;
-  font-family: 'Mulish';
+  padding: 0 50px 0 45px;
+  font-family: "Mulish";
   font-weight: 400;
   font-size: 25.5px;
   line-height: 32px;
   text-align: center;
   color: var(--dark-color);
-  /* position: relative; */
   text-align: left;
 }
-.nav-menu-link{
+.nav-menu-link {
   display: inline-block;
 }
 
-.nav-menu-link:hover{
+.nav-menu-link:hover {
   color: var(--accent-color);
 }
 
-.sab-nav-menu-list{
+.sab-nav-menu-list {
   display: none;
   position: absolute;
   border: 1px solid var(--accent-color);
   border-radius: 10px;
-
 }
 
-.sab-nav-menu-list > .nav-menu-item{
+.sab-nav-menu-list > .nav-menu-item {
   display: block;
   background-color: var(--accent-color);
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: italic;
   font-weight: 200;
   font-size: 14px;
@@ -154,18 +145,22 @@
   padding-left: 8px;
 }
 
-.sab-nav-menu-list > .nav-menu-item:hover{
-  background-color: #60A861;
+.sab-nav-menu-list > .nav-menu-item:hover {
+  background-color: #60a861;
 }
 
-.nav-menu-item:hover > .sab-nav-menu-list{
+.nav-menu-item:hover > .sab-nav-menu-list {
   display: block;
 }
 
-.sab-nav-menu-list .sab-nav-menu-list{
+.sab-nav-menu-list .sab-nav-menu-list {
   left: 100%;
   top: 0;
   width: 100%;
 }
 
-
+.line{
+  border-bottom: 1.5px solid #C4C4C4;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
