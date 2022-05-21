@@ -1,4 +1,7 @@
 .review-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .review-block {
   width: 813px;
@@ -8,6 +11,10 @@
   border-radius: 12px;
   -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.37);
   box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.review-arrow{
+  width: 43px;
+  height: 43px;
 }
 .review-star {
   padding-bottom: 50px;
