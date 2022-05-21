@@ -1,0 +1,54 @@
+.review-wrapper {
+}
+.review-block {
+  width: 813px;
+  height: 395px;
+  padding-left: 80px;
+  padding-top: 40px;
+  border-radius: 12px;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.review-star {
+  padding-bottom: 50px;
+}
+.review-p {
+  width: 555px;
+  padding-bottom: 50px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 34px;
+  color: #696969;
+}
+.review-about-person{
+  display: flex;
+  align-items: center;
+}
+.review-about-person-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.review-p-wrapper{
+  margin-left: 30px;
+}
+.review-about-person-p-name {
+  font-family: "Trajan Pro 3";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: var(--dark-color);
+}
+.review-about-person-p-company {
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--accent-color);
+}
