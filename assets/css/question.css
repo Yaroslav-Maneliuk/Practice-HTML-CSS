@@ -1,6 +1,6 @@
 .question-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 150px;
   margin-bottom: 70px;
   width: 90%;
