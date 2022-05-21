@@ -79,7 +79,17 @@
     <div class="question-interactive-block-wrapper">
       <h1 class="question-header uppercase"> задайте вопрос юристу онлайн</h1>
       <p class="question-p">Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
-      <a href="#" class="question-button" type="button">Отправить вопрос</a>
+      <label>
+        <input type="tel" placeholder="Введите номер Вашего телефона" name="number">
+      </label>
+      <label>
+        <input type="text" placeholder="Введите Ваш вопрос..." name="quastion" >
+      </label>
+      <label>
+        <input type="checkbox"  name="agreement" value="agree">
+        <span class="quastion-agreement">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</span>
+      </label>
+      <input class="question-button" type="submit" value="Отправить вопрос">
     </div>
   </div>
   <div class="request-wrapper">
